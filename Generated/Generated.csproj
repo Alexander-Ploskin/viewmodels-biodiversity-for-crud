@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+	  <LangVersion>9</LangVersion>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Mvvm.CodeGenerators" Version="21.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.18" />
+	  <PackageReference Include="DevExpress.Wpf.Themes.All" Version="21.2.4" />
+	  <PackageReference Include="DevExpress.Images" Version="21.2.4" />
+	  <PackageReference Include="DevExpress.Wpf.LayoutControl" Version="21.2.4" />
+	  <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="21.2.4" />
+  </ItemGroup>
+
+</Project>
